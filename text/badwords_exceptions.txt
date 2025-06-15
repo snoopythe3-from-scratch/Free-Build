@@ -1,0 +1,5 @@
+# This file is a list of words that the profanity filter will not filter,
+# even when part of the word has been added to text/badwords.txt
+# This allows mitigation of the "Scunthorpe problem" on a case-by-case basis.
+# For instance, one may want to block the word "Thor", but allow the word "Scunthorpe".
+# Each word to allow must be on an individual line

@@ -1,0 +1,2 @@
+Q; What does this server run on? A: This server runs on &bMCGalaxy
+Q: How much have I been playing? A: You have been playing for &e$playtime
