@@ -1,11 +1,6 @@
 # Use a lightweight Ubuntu base image
 FROM ubuntu:22.04
 
-# Install Mono
-RUN apt-get update && \
-    apt-get install -y mono-complete && \
-    apt-get clean
-
 # Create a working directory
 WORKDIR /app
 
