@@ -1,7 +1,8 @@
+FROM python:2.7
+RUN pip install -r requirements.txt
+
 # Use a lightweight Ubuntu base image
 FROM ubuntu:22.04
-
-pip install -r requirements.txt
 
 # Create a working directory
 WORKDIR /app
